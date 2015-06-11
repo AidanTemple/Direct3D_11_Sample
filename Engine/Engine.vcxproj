@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3699430F-DA71-4E86-951A-245C9D7BCBEB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Engine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(DXSDK_DIR)\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AlphaMapShader.cpp" />
+    <ClCompile Include="BumpMapShader.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Direct3D.cpp" />
+    <ClCompile Include="FrameCounter.cpp" />
+    <ClCompile Include="GameTime.cpp" />
+    <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="LightShader.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="SkyDome.cpp" />
+    <ClCompile Include="SkyDomeShader.cpp" />
+    <ClCompile Include="SpecularMapShader.cpp" />
+    <ClCompile Include="System.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TextureArray.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AlphaMapShader.h" />
+    <ClInclude Include="BumpMapShader.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Direct3D.h" />
+    <ClInclude Include="FrameCounter.h" />
+    <ClInclude Include="GameTime.h" />
+    <ClInclude Include="GameScene.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="LightShader.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="SkyDome.h" />
+    <ClInclude Include="SkyDomeShader.h" />
+    <ClInclude Include="SpecularMapShader.h" />
+    <ClInclude Include="System.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TextureArray.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\Audio\WAV\Ambient_Sound.wav" />
+    <None Include="Content\Audio\WAV\Footsteps.wav" />
+    <None Include="Content\Fonts\font.dds" />
+    <None Include="Content\Fonts\fontdata.txt" />
+    <None Include="Content\Models\TXT\ArchColoumns.txt" />
+    <None Include="Content\Models\TXT\Cauldron_Ground.txt" />
+    <None Include="Content\Models\TXT\Cauldron_Hanging.txt" />
+    <None Include="Content\Models\TXT\Floor.txt" />
+    <None Include="Content\Models\TXT\Grass.txt" />
+    <None Include="Content\Models\TXT\IvyExterior.txt" />
+    <None Include="Content\Models\TXT\IvyInterior.txt" />
+    <None Include="Content\Models\TXT\Rock.txt" />
+    <None Include="Content\Models\TXT\RoughWoodenPlanks.txt" />
+    <None Include="Content\Models\TXT\SkyDome.txt" />
+    <None Include="Content\Models\TXT\StoneWall.txt" />
+    <None Include="Content\Models\TXT\SupportBeams.txt" />
+    <None Include="Content\Models\TXT\Table.txt" />
+    <None Include="Content\Models\TXT\Tree.txt" />
+    <None Include="Content\Models\TXT\WallsLower.txt" />
+    <None Include="Content\Models\TXT\WallsUpper.txt" />
+    <None Include="Content\Models\TXT\WoodenRoof.txt" />
+    <None Include="Content\Models\TXT\WoodSupports.txt" />
+    <None Include="Content\Shaders\AlphaMap.ps" />
+    <None Include="Content\Shaders\AlphaMap.vs" />
+    <None Include="Content\Shaders\Bump.ps" />
+    <None Include="Content\Shaders\Bump.vs" />
+    <None Include="Content\Shaders\Font.ps" />
+    <None Include="Content\Shaders\Font.vs" />
+    <None Include="Content\Shaders\light.ps" />
+    <None Include="Content\Shaders\light.vs" />
+    <None Include="Content\Shaders\SkyDome.ps" />
+    <None Include="Content\Shaders\SkyDome.vs" />
+    <None Include="Content\Shaders\Specular.ps" />
+    <None Include="Content\Shaders\Specular.vs" />
+    <None Include="Content\Textures\Buildings\Paving_Diffuse.png" />
+    <None Include="Content\Textures\Buildings\Paving_Normal.png" />
+    <None Include="Content\Textures\Buildings\RockWall_Diffuse.png" />
+    <None Include="Content\Textures\Buildings\RockWall_Normal.png" />
+    <None Include="Content\Textures\Buildings\RoughWoodPlanks_Diffuse.png" />
+    <None Include="Content\Textures\Buildings\RoughWoodPlanks_Normal.png" />
+    <None Include="Content\Textures\Buildings\WallsLower_Diffuse.png" />
+    <None Include="Content\Textures\Buildings\WallsLower_Normal.png" />
+    <None Include="Content\Textures\Buildings\WallUpper_Diffuse.png" />
+    <None Include="Content\Textures\Buildings\WallUpper_Normal.png" />
+    <None Include="Content\Textures\Buildings\WoodenRoof_Diffuse.png" />
+    <None Include="Content\Textures\Buildings\WoodenRoof_Normal.png" />
+    <None Include="Content\Textures\Buildings\WoodOldOrnamentalism_Diffuse.png" />
+    <None Include="Content\Textures\Buildings\WoodOldOrnamentalism_Normal.png" />
+    <None Include="Content\Textures\Buildings\WoodOld_01_Diffuse.png" />
+    <None Include="Content\Textures\Buildings\WoodOld_02_Diffuse.png" />
+    <None Include="Content\Textures\Buildings\WoodOld_Normal.png" />
+    <None Include="Content\Textures\Props\Cauldron_Diffuse.png" />
+    <None Include="Content\Textures\Props\Cauldron_Normal.png" />
+    <None Include="Content\Textures\Props\Cauldron_Specular.png" />
+    <None Include="Content\Textures\Props\Table_Diffuse.png" />
+    <None Include="Content\Textures\Props\Table_Normal.png" />
+    <None Include="Content\Textures\Props\Table_Specular.png" />
+    <None Include="Content\Textures\Rocks\Rock_Diffuse.png" />
+    <None Include="Content\Textures\Rocks\Rock_Normal.png" />
+    <None Include="Content\Textures\SkyDome\SkyDome.bmp" />
+    <None Include="Content\Textures\Terrain\Grass_Diffuse.png" />
+    <None Include="Content\Textures\Terrain\Grass_Normal.png" />
+    <None Include="Content\Textures\Trees\Ivy_Alpha.png" />
+    <None Include="Content\Textures\Trees\Ivy_Diff.png" />
+    <None Include="Content\Textures\Trees\Ivy_Normal.png" />
+    <None Include="Content\Textures\Trees\Tree_Diffuse.png" />
+    <None Include="Content\Textures\Trees\Tree_Normal.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

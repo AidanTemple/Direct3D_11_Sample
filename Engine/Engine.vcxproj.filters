@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{a3e83602-4d52-478b-aab0-f3f889fd63e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Models">
+      <UniqueIdentifier>{060e284a-928b-4684-a4ee-5bf7b487d92a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Textures">
+      <UniqueIdentifier>{64275c46-0dfd-4d69-8ee2-44c3c5d7e35b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Fonts">
+      <UniqueIdentifier>{8a4c6c67-1296-4477-beb6-c1418ea4d207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Shaders">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Content\Textures\Buildings">
+      <UniqueIdentifier>{29738552-0349-40f2-80d4-698f388ca781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Textures\Rocks">
+      <UniqueIdentifier>{d437a98f-f229-4421-9d97-2c8017e5d21f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Textures\Terrain">
+      <UniqueIdentifier>{0d4320c8-f7ca-4afc-abd4-711e1200e062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Textures\Trees">
+      <UniqueIdentifier>{d7fd6cad-5ea2-4513-8f84-3ddd32e368eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Textures\SkyBox">
+      <UniqueIdentifier>{10ae669b-e2cb-48b9-a26f-28af8c8cd151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{995d1246-46d3-4b74-a472-ccef40f5b378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Textures\Props">
+      <UniqueIdentifier>{4efce6d0-eed6-434e-9ab2-8f89f081cb76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Audio">
+      <UniqueIdentifier>{41cdfb0e-5e5e-4d55-b05a-38df7b1eaa4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Audio\WAV">
+      <UniqueIdentifier>{ed283417-74fb-454e-b330-30702940e47c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BumpMapShader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="LightShader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecularMapShader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyDome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyDomeShader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameCounter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AlphaMapShader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BumpMapShader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecularMapShader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="LightShader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyDome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyDomeShader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AlphaMapShader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\Fonts\font.dds">
+      <Filter>Content\Fonts</Filter>
+    </None>
+    <None Include="Content\Fonts\fontdata.txt">
+      <Filter>Content\Fonts</Filter>
+    </None>
+    <None Include="Content\Models\TXT\ArchColoumns.txt">
+      <Filter>Content\Models</Filter>
+    </None>
+    <None Include="Content\Models\TXT\Cauldron_Ground.txt">
+      <Filter>Content\Models</Filter>
+    </None>
+    <None Include="Content\Models\TXT\Cauldron_Hanging.txt">
+      <Filter>Content\Models</Filter>
+    </None>
+    <None Include="Content\Models\TXT\Floor.txt">
+      <Filter>Content\Models</Filter>
+    </None>
+    <None Include="Content\Models\TXT\Grass.txt">
+      <Filter>Content\Models</Filter>
+    </None>
+    <None Include="Content\Models\TXT\IvyExterior.txt">
+      <Filter>Content\Models</Filter>
+    </None>
+    <None Include="Content\Models\TXT\IvyInterior.txt">
+      <Filter>Content\Models</Filter>
+    </None>
+    <None Include="Content\Models\TXT\Rock.txt">
+      <Filter>Content\Models</Filter>
+    </None>
+    <None Include="Content\Models\TXT\RoughWoodenPlanks.txt">
+      <Filter>Content\Models</Filter>
+    </None>
+    <None Include="Content\Models\TXT\SkyDome.txt">
+      <Filter>Content\Models</Filter>
+    </None>
+    <None Include="Content\Models\TXT\StoneWall.txt">
+      <Filter>Content\Models</Filter>
+    </None>
+    <None Include="Content\Models\TXT\SupportBeams.txt">
+      <Filter>Content\Models</Filter>
+    </None>
+    <None Include="Content\Models\TXT\Table.txt">
+      <Filter>Content\Models</Filter>
+    </None>
+    <None Include="Content\Models\TXT\Tree.txt">
+      <Filter>Content\Models</Filter>
+    </None>
+    <None Include="Content\Models\TXT\WallsLower.txt">
+      <Filter>Content\Models</Filter>
+    </None>
+    <None Include="Content\Models\TXT\WallsUpper.txt">
+      <Filter>Content\Models</Filter>
+    </None>
+    <None Include="Content\Models\TXT\WoodenRoof.txt">
+      <Filter>Content\Models</Filter>
+    </None>
+    <None Include="Content\Models\TXT\WoodSupports.txt">
+      <Filter>Content\Models</Filter>
+    </None>
+    <None Include="Content\Shaders\AlphaMap.ps">
+      <Filter>Content\Shaders</Filter>
+    </None>
+    <None Include="Content\Shaders\AlphaMap.vs">
+      <Filter>Content\Shaders</Filter>
+    </None>
+    <None Include="Content\Shaders\Bump.ps">
+      <Filter>Content\Shaders</Filter>
+    </None>
+    <None Include="Content\Shaders\Bump.vs">
+      <Filter>Content\Shaders</Filter>
+    </None>
+    <None Include="Content\Shaders\Font.ps">
+      <Filter>Content\Shaders</Filter>
+    </None>
+    <None Include="Content\Shaders\Font.vs">
+      <Filter>Content\Shaders</Filter>
+    </None>
+    <None Include="Content\Shaders\light.ps">
+      <Filter>Content\Shaders</Filter>
+    </None>
+    <None Include="Content\Shaders\light.vs">
+      <Filter>Content\Shaders</Filter>
+    </None>
+    <None Include="Content\Shaders\SkyDome.ps">
+      <Filter>Content\Shaders</Filter>
+    </None>
+    <None Include="Content\Shaders\SkyDome.vs">
+      <Filter>Content\Shaders</Filter>
+    </None>
+    <None Include="Content\Shaders\Specular.ps">
+      <Filter>Content\Shaders</Filter>
+    </None>
+    <None Include="Content\Shaders\Specular.vs">
+      <Filter>Content\Shaders</Filter>
+    </None>
+    <None Include="Content\Textures\Trees\Ivy_Alpha.png">
+      <Filter>Content\Textures\Trees</Filter>
+    </None>
+    <None Include="Content\Textures\Trees\Ivy_Diff.png">
+      <Filter>Content\Textures\Trees</Filter>
+    </None>
+    <None Include="Content\Textures\Trees\Ivy_Normal.png">
+      <Filter>Content\Textures\Trees</Filter>
+    </None>
+    <None Include="Content\Textures\Trees\Tree_Diffuse.png">
+      <Filter>Content\Textures\Trees</Filter>
+    </None>
+    <None Include="Content\Textures\Trees\Tree_Normal.png">
+      <Filter>Content\Textures\Trees</Filter>
+    </None>
+    <None Include="Content\Textures\Terrain\Grass_Diffuse.png">
+      <Filter>Content\Textures\Terrain</Filter>
+    </None>
+    <None Include="Content\Textures\Terrain\Grass_Normal.png">
+      <Filter>Content\Textures\Terrain</Filter>
+    </None>
+    <None Include="Content\Textures\SkyDome\SkyDome.bmp">
+      <Filter>Content\Textures\SkyBox</Filter>
+    </None>
+    <None Include="Content\Textures\Rocks\Rock_Diffuse.png">
+      <Filter>Content\Textures\Rocks</Filter>
+    </None>
+    <None Include="Content\Textures\Rocks\Rock_Normal.png">
+      <Filter>Content\Textures\Rocks</Filter>
+    </None>
+    <None Include="Content\Textures\Buildings\Paving_Diffuse.png">
+      <Filter>Content\Textures\Buildings</Filter>
+    </None>
+    <None Include="Content\Textures\Buildings\Paving_Normal.png">
+      <Filter>Content\Textures\Buildings</Filter>
+    </None>
+    <None Include="Content\Textures\Buildings\RockWall_Diffuse.png">
+      <Filter>Content\Textures\Buildings</Filter>
+    </None>
+    <None Include="Content\Textures\Buildings\RockWall_Normal.png">
+      <Filter>Content\Textures\Buildings</Filter>
+    </None>
+    <None Include="Content\Textures\Buildings\RoughWoodPlanks_Diffuse.png">
+      <Filter>Content\Textures\Buildings</Filter>
+    </None>
+    <None Include="Content\Textures\Buildings\RoughWoodPlanks_Normal.png">
+      <Filter>Content\Textures\Buildings</Filter>
+    </None>
+    <None Include="Content\Textures\Buildings\WallsLower_Diffuse.png">
+      <Filter>Content\Textures\Buildings</Filter>
+    </None>
+    <None Include="Content\Textures\Buildings\WallsLower_Normal.png">
+      <Filter>Content\Textures\Buildings</Filter>
+    </None>
+    <None Include="Content\Textures\Buildings\WallUpper_Diffuse.png">
+      <Filter>Content\Textures\Buildings</Filter>
+    </None>
+    <None Include="Content\Textures\Buildings\WallUpper_Normal.png">
+      <Filter>Content\Textures\Buildings</Filter>
+    </None>
+    <None Include="Content\Textures\Buildings\WoodenRoof_Diffuse.png">
+      <Filter>Content\Textures\Buildings</Filter>
+    </None>
+    <None Include="Content\Textures\Buildings\WoodenRoof_Normal.png">
+      <Filter>Content\Textures\Buildings</Filter>
+    </None>
+    <None Include="Content\Textures\Buildings\WoodOld_01_Diffuse.png">
+      <Filter>Content\Textures\Buildings</Filter>
+    </None>
+    <None Include="Content\Textures\Buildings\WoodOld_02_Diffuse.png">
+      <Filter>Content\Textures\Buildings</Filter>
+    </None>
+    <None Include="Content\Textures\Buildings\WoodOld_Normal.png">
+      <Filter>Content\Textures\Buildings</Filter>
+    </None>
+    <None Include="Content\Textures\Buildings\WoodOldOrnamentalism_Diffuse.png">
+      <Filter>Content\Textures\Buildings</Filter>
+    </None>
+    <None Include="Content\Textures\Buildings\WoodOldOrnamentalism_Normal.png">
+      <Filter>Content\Textures\Buildings</Filter>
+    </None>
+    <None Include="Content\Textures\Props\Cauldron_Diffuse.png">
+      <Filter>Content\Textures\Props</Filter>
+    </None>
+    <None Include="Content\Textures\Props\Cauldron_Normal.png">
+      <Filter>Content\Textures\Props</Filter>
+    </None>
+    <None Include="Content\Textures\Props\Cauldron_Specular.png">
+      <Filter>Content\Textures\Props</Filter>
+    </None>
+    <None Include="Content\Textures\Props\Table_Diffuse.png">
+      <Filter>Content\Textures\Props</Filter>
+    </None>
+    <None Include="Content\Textures\Props\Table_Normal.png">
+      <Filter>Content\Textures\Props</Filter>
+    </None>
+    <None Include="Content\Textures\Props\Table_Specular.png">
+      <Filter>Content\Textures\Props</Filter>
+    </None>
+    <None Include="Content\Audio\WAV\Footsteps.wav">
+      <Filter>Content\Audio\WAV</Filter>
+    </None>
+    <None Include="Content\Audio\WAV\Ambient_Sound.wav">
+      <Filter>Content\Audio\WAV</Filter>
+    </None>
+  </ItemGroup>
+</Project>
